@@ -1,5 +1,13 @@
-.App {
-  text-align: center;
+.App, .App-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(./background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
 }
 .font-face-tangerine {
     font-family: 'Tangerine';
@@ -45,7 +53,7 @@
 }
 
 
-.App-header {
+/* .App-header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -55,9 +63,9 @@
   background-attachment: fixed;
   background-size: cover;
   /* height: 100%; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   
-}
+/* } */ */
 
 .ig {
   display: flex;
@@ -66,6 +74,12 @@
   margin-bottom: .5em;
   background-image: url(instagram.png);
   background-repeat: no-repeat;
+}
+
+
+
+.needSpace {
+  letter-spacing: 1px;
 }
 
 

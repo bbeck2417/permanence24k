@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import ig from './instagram.png';
+import i from './infinity.png';
+import t from './hour-glass.png';
 
 
 function App() {
@@ -30,8 +32,14 @@ function App() {
               <img src={ig} alt="Poet vs Nature" />
             </a>  
             </div>
+
+          
           </div>
+          
       </header>
+      <footer className='needSpace'>
+          <p>Copyright from    <img src={i} alt="lift off" /> <img src={t} alt="this is taking forever"/>   <img src={i} alt="what is that?" />. </p>
+      </footer>
     </div>
   );
 }
