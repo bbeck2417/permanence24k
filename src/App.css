@@ -1,6 +1,7 @@
 .topFlex {
   display: flex;
   min-height: 100vh;
+  justify-content: center;
 }
 
 .App, .App-header {
