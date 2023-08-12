@@ -1,3 +1,8 @@
+.topFlex {
+  display: flex;
+  min-height: 100vh;
+}
+
 .App, .App-header {
   display: flex;
   flex-wrap: wrap;
@@ -7,7 +12,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 100vh;
+  margin-bottom: none;
 }
 .font-face-tangerine {
     font-family: 'Tangerine';
@@ -57,7 +62,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: .5em;
   background-image: url(instagram.png);
   background-repeat: no-repeat;
 }

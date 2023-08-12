@@ -7,6 +7,7 @@ import t from './hour-glass.png';
 
 function App() {
   return (
+   <div className='topFlex'>
     <div className="App">
       <header className="App-header">
           <div className='font-face-tangerine'>
@@ -41,6 +42,7 @@ function App() {
           <p>Copyright from    <img src={i} alt="lift off" /> <img src={t} alt="this is taking forever"/>   <img src={i} alt="what is that?" />. </p>
       </footer>
     </div>
+    </div>  
   );
 }
 
