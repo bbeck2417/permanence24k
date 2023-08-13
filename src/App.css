@@ -31,6 +31,15 @@
     margin-top: 1%; 
 }
 
+.infintyTransition {
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction:  ;
+}
+
+
+
 .aboutMe {
   display: flex;
   justify-content: center;
