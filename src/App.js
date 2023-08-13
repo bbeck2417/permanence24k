@@ -1,14 +1,20 @@
 import React from "react";
 import "./englishPeaks";
 import "./App.css";
-import EnglishPeaks from "./englishPeaks";
-import FrenchPeaks from "./finnishPeaks";
+// import EnglishPeaks from "./englishPeaks";
+// import FrenchPeaks from "./finnishPeaks";
+import FinnishPeaks from "./finnishPeaks";
+// import Counter from "./infinityTransition";
 
 
 
-export default function App() {
+function App() {
   return (
-    <EnglishPeaks />
-  );
+
+    
+   <FinnishPeaks/>
+   
+  )
 }
 
+export default App;

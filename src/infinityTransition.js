@@ -1,38 +1,16 @@
-// import react from 'react';
-// import App from './App';
-import "App.css";
-import "App.js";
+import React from 'react';
+import { useState, useEffect } from 'react';
 
+export default function Counter() {
+  const [FrenchPeaks, setCount] = useState(0);
 
-const element = document.getElementById("infinityTransition");
-element.addEventListener("animationstart", listener, false);
-element.addEventListener("animationend", listener, false);
-element.addEventListener("animationiteration", listener, false);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCount(c => c + 1); // ✅ Pass a state updater
+    }, 13000);
+    return () => clearInterval(intervalId);
+  }, []); // ✅ Now count is not a dependency
 
-element.className = "infintyTransition";
-
-function listener(event) {
-  const l = document.createElement("h2");
-  switch (event.type) {
-    case "animationstart":
-      l.textContent = `Started: elapsed time is ${event.elapsedTime}`;
-      break;
-    case "animationend":
-      l.textContent = `Ended: elapsed time is ${event.elapsedTime}`;
-      break;
-    case "animationiteration":
-      l.textContent = `New loop started at time ${event.elapsedTime}`;
-      break;
-  }
-  document.getElementById("output").appendChild(l);
+  return <FrenchPeaks/>;
 }
 
-
-
-
-
-
-
-
-
-export default infinityTransition;
