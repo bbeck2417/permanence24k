@@ -7,7 +7,7 @@ import t from "./hour-glass.png";
 
 
 
-function FrenchPeaks() {
+function EnglishPeaks() {
   return (
     <div className="topFlex">
     <div className="App">
@@ -16,20 +16,20 @@ function FrenchPeaks() {
           <div className="infinityTransition">
             <div>
               <div className="aboutMe">
-                <h2>Sur moi</h2>
+                <h2>About Me</h2>
               </div>
               <div className="poet">
-                <h4>Je suis poète de nature</h4>
+                <h4>I am a poet thru Nature</h4>
               </div>
             </div>
 
             <div className="content">
               <p>
-              J'aime voyager autour du monde en suivant la vie.
-               Vous recherchez la nature à son apogée, en abondance
-               interactions. Les interactions sont présentées uniquement dans cette section
-               dans le moment et le lieu. Pour capturer un instant
-               sentiment et pensée...
+                I enjoy traveling accross the world in observance of life.
+                Looking for nature peaking through, in an abudance of
+                interactions. Interactions only presented in that specific
+                moment of time and in of place. For me to capture a moment of
+                feeling and thought...
               </p>
             </div>
           </div>
@@ -59,4 +59,4 @@ function FrenchPeaks() {
   );
 }
 
-export default FrenchPeaks;
+export default EnglishPeaks;

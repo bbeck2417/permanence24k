@@ -7,7 +7,7 @@ import t from "./hour-glass.png";
 
 
 
-function FrenchPeaks() {
+function FinnishPeaks() {
   return (
     <div className="topFlex">
     <div className="App">
@@ -16,20 +16,20 @@ function FrenchPeaks() {
           <div className="infinityTransition">
             <div>
               <div className="aboutMe">
-                <h2>Sur moi</h2>
+                <h2>Minusta</h2>
               </div>
               <div className="poet">
-                <h4>Je suis poète de nature</h4>
+                <h4>Olen runoilija luonnon kautta</h4>
               </div>
             </div>
 
             <div className="content">
               <p>
-              J'aime voyager autour du monde en suivant la vie.
-               Vous recherchez la nature à son apogée, en abondance
-               interactions. Les interactions sont présentées uniquement dans cette section
-               dans le moment et le lieu. Pour capturer un instant
-               sentiment et pensée...
+              Nautin matkustamisesta ympäri maailmaa elämää noudattaen.
+              Etsitkö luontoa huipussaan, runsaasti
+              vuorovaikutuksia. Vuorovaikutukset esitetään vain kyseisessä kohdassa
+              hetkessä ja paikassa. Jotta voisin vangita hetken
+              tunne ja ajatus...
               </p>
             </div>
           </div>
@@ -59,4 +59,4 @@ function FrenchPeaks() {
   );
 }
 
-export default FrenchPeaks;
+export default FinnishPeaks;
