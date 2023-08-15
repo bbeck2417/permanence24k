@@ -13,7 +13,7 @@ function FinnishPeaks() {
     <div className="App">
       <header className="App-header">
         <div className="font-face-tangerine">
-          <div className="infinityTransition">
+          
             <div>
               <div className="aboutMe">
                 <h2>Minusta</h2>
@@ -32,7 +32,7 @@ function FinnishPeaks() {
               tunne ja ajatus...
               </p>
             </div>
-          </div>
+          
 
           <div className="ig">
             <div>

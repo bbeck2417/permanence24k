@@ -13,7 +13,6 @@ function EnglishPeaks() {
     <div className="App">
       <header className="App-header">
         <div className="font-face-tangerine">
-          <div className="infinityTransition">
             <div>
               <div className="aboutMe">
                 <h2>About Me</h2>
@@ -32,7 +31,7 @@ function EnglishPeaks() {
                 feeling and thought...
               </p>
             </div>
-          </div>
+          
 
           <div className="ig">
             <div>

@@ -13,7 +13,7 @@ function FrenchPeaks() {
     <div className="App">
       <header className="App-header">
         <div className="font-face-tangerine">
-          <div className="infinityTransition">
+          
             <div>
               <div className="aboutMe">
                 <h2>Sur moi</h2>
@@ -32,7 +32,7 @@ function FrenchPeaks() {
                sentiment et pensée...
               </p>
             </div>
-          </div>
+          
 
           <div className="ig">
             <div>
