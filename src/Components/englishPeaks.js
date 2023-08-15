@@ -4,15 +4,12 @@ import ig from "../instagram.png";
 import i from "../infinity.png";
 import t from "../hour-glass.png";
 
-
-
-
 function EnglishPeaks() {
   return (
     <div className="topFlex">
-    <div className="App">
-      <header className="App-header">
-        <div className="font-face-tangerine">
+      <div className="App">
+        <header>
+          <div className="font-face-tangerine">
             <div>
               <div className="aboutMe">
                 <h2>About Me</h2>
@@ -31,30 +28,29 @@ function EnglishPeaks() {
                 feeling and thought...
               </p>
             </div>
-          
 
-          <div className="ig">
-            <div>
-              <a
-                href="https://www.instagram.com/will_iambeck"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img src={ig} alt="Poet vs Nature" />
-              </a>
+            <div className="ig">
+              <div>
+                <a
+                  href="https://www.instagram.com/will_iambeck"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src={ig} alt="Poet vs Nature" />
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
-      <footer className="needSpace">
-        <p>
-          Copyright from <img src={i} alt="lift off" />{" "}
-          <img src={t} alt="this is taking forever" />{" "}
-          <img src={i} alt="what is that?" />.{" "}
-        </p>
-      </footer>
+        </header>
+        <footer className="needSpace">
+          <p>
+            Copyright from <img src={i} alt="lift off" />{" "}
+            <img src={t} alt="this is taking forever" />{" "}
+            <img src={i} alt="what is that?" />.{" "}
+          </p>
+        </footer>
+      </div>
     </div>
-  </div>
   );
 }
 

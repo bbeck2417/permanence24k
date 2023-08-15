@@ -4,10 +4,13 @@ import EnglishPeaks from "./Components/englishPeaks";
 
 function App() {
   return (
-    <div className="App App-header">
-      <div>
-        <EnglishPeaks />
-      </div>
+    <div className="topFlex">
+      
+        
+            <EnglishPeaks/>
+        
+      
+    
     </div>
   );
 }
