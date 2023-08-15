@@ -73,5 +73,37 @@
   letter-spacing: 1px;
 }
 
+.fade-component {
+  animation-duration: 13s ;
+  animation-name: fadeIn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50;
+  }
+  75% {
+    opacity: 75;
+  }
+  100% {
+    opacity: 100;
+  }
+  75% {
+    opacity: 75;
+  }
+  50% {
+    opacity: 50;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 
 
