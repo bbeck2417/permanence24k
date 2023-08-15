@@ -4,6 +4,8 @@
   justify-content: center;
 }
 
+
+
 .App, .App-header {
   display: flex;
   flex-wrap: wrap;
@@ -30,15 +32,6 @@
     margin-right: 25%;
     margin-top: 1%; 
 }
-
-.infintyTransition {
-  animation-duration: 10s;
-  animation-name: slidein;
-  animation-iteration-count: 3;
-  animation-direction:  ;
-}
-
-
 
 .aboutMe {
   display: flex;
@@ -83,4 +76,34 @@
 }
 
 
+ .english-peaks {
+  animation-duration: 13s ;
+  animation-name: fadeIn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50;
+  }
+  75% {
+    opacity: 75;
+  }
+  100% {
+    opacity: 100;
+  }
+  75% {
+    opacity: 75;
+  }
+  50% {
+    opacity: 50;
+  }
+  to {
+    opacity: 0;
+  }
+}

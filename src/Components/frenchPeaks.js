@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css";
-import ig from "./instagram.png";
-import i from "./infinity.png";
-import t from "./hour-glass.png";
+import "../App.css";
+import ig from "../instagram.png";
+import i from "../infinity.png";
+import t from "../hour-glass.png";
 
 
 
@@ -38,7 +38,7 @@ function FrenchPeaks() {
             <div>
               <a
                 href="https://www.instagram.com/will_iambeck"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <img src={ig} alt="Poet vs Nature" />

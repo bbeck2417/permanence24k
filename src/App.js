@@ -1,20 +1,21 @@
 import React from "react";
-import "./englishPeaks";
 import "./App.css";
-// import EnglishPeaks from "./englishPeaks";
-// import FrenchPeaks from "./finnishPeaks";
-import FinnishPeaks from "./finnishPeaks";
-// import Counter from "./infinityTransition";
-
-
+import EnglishPeaks from "./Components/englishPeaks";
+// import FrenchPeaks from "./Components/frenchPeaks";
 
 function App() {
   return (
-
+    <div className="topFlex">
+    <div className="App App-header">
+    <div className="english-peaks">
+      
+        <EnglishPeaks></EnglishPeaks>
+      
+    </div>
+    </div>
+    </div>
     
-   <FinnishPeaks/>
-   
-  )
+  );
 }
 
 export default App;
