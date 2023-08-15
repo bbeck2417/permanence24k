@@ -5,7 +5,7 @@ import EnglishPeaks from "./Components/englishPeaks";
 function App() {
   return (
     <div className="App App-header">
-      <div className="fade-component">
+      <div>
         <EnglishPeaks />
       </div>
     </div>
