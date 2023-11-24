@@ -8,7 +8,7 @@ function EnglishPeaks() {
   return (
     <div className="topFlex">
       <div className="App">
-        <header>
+        <header className="App-header">
           <div className="font-face-tangerine">
             <div>
               <div className="aboutMe">
@@ -20,13 +20,13 @@ function EnglishPeaks() {
             </div>
 
             <div className="content">
-              <p>
+              <span>
                 I enjoy traveling accross the world in observance of life.
                 Looking for nature peaking through, in an abudance of
                 interactions. Interactions only presented in that specific
                 moment of time and in of place. For me to capture a moment of
                 feeling and thought...
-              </p>
+              </span>
             </div>
 
             <div className="ig">
@@ -43,11 +43,11 @@ function EnglishPeaks() {
           </div>
         </header>
         <footer className="needSpace">
-          <p>
+          <span>
             Copyright from <img src={i} alt="lift off" />{" "}
             <img src={t} alt="this is taking forever" />{" "}
             <img src={i} alt="what is that?" />.{" "}
-          </p>
+          </span>
         </footer>
       </div>
     </div>
